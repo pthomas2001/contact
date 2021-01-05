@@ -1,0 +1,71 @@
+/*
+* CSS STYLESHEETS:
+*
+* base.css............Sets the global rules.
+* layout.css..........Sets the layout of the containers.
+* components.css......Sets the rules of the smaller components.
+*/
+
+
+/*
+* THIS FILE CONTAINS:
+* 
+* GLOBAL RULES
+* Box-sizing
+* Links
+* Font-family
+*
+* GLOBAL VALUES (VARIABLES)
+* Backgrounds
+* Font colors
+* Paddings
+*/
+
+
+
+
+
+/*------------------------------------*\
+  #GLOBAL RULES
+\*------------------------------------*/
+
+* { box-sizing: border-box }
+
+
+a {
+  text-decoration:  none;
+  color:          white;
+  font-size:        12px;
+}
+
+
+body { font-family: "Montserrat" }
+
+
+
+
+
+/*------------------------------------*\
+  #GLOBAL VALUES
+\*------------------------------------*/
+
+:root {
+  --primary-background:    #6200EA;
+  --secondary-background:  white;
+  --footer-background:     #211138;
+  --form-background:       #F4F3F5;
+}
+
+
+:root {
+  --primary-font-color:   white;
+  --secondary-font-color: #6200EA;
+  --paragraph-font-color: #211138;
+}
+
+
+main div {
+  width:    540px;
+  height:   640px;
+  padding:  60px
+}
