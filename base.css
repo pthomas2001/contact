@@ -1,4 +1,4 @@
-/*
+/**
 * CSS STYLESHEETS:
 *
 * base.css............Sets the global rules.
@@ -7,18 +7,19 @@
 */
 
 
-/*
+/**
 * THIS FILE CONTAINS:
 * 
 * GLOBAL RULES
 * Box-sizing
 * Links
+* H6 rules
 * Font-family
+* Paddings
 *
 * GLOBAL VALUES (VARIABLES)
 * Backgrounds
 * Font colors
-* Paddings
 */
 
 
@@ -39,7 +40,22 @@ a {
 }
 
 
+h6 {
+  font-size:        12px;
+  letter-spacing:   2.4px;
+  font-weight:      bold;
+  text-transform:   uppercase
+}
+
+
 body { font-family: "Montserrat" }
+
+
+main div {
+  width:    540px;
+  height:   640px;
+  padding:  60px
+}
 
 
 
@@ -49,23 +65,26 @@ body { font-family: "Montserrat" }
   #GLOBAL VALUES
 \*------------------------------------*/
 
+/**
+* 1) Background color of header and buttons
+* 2) Background color of divs in main container
+*
+* 3) Font color of header and buttons
+*/
+
 :root {
-  --primary-background:    #6200EA;
-  --secondary-background:  white;
-  --footer-background:     #211138;
+  --primary-background:    #6200EA; /* [1] */
+  --secondary-background:  white; /* [2] */
   --form-background:       #F4F3F5;
+  --footer-background:     #211138;
 }
 
 
 :root {
-  --primary-font-color:   white;
-  --secondary-font-color: #6200EA;
-  --paragraph-font-color: #211138;
-}
-
-
-main div {
-  width:    540px;
-  height:   640px;
-  padding:  60px
+  --primary-font-color:       white; /* [3] */
+  --secondary-font-color:     #6200EA;
+  --navbar-font-color:        rgba(244,243,245,0.6);
+  --paragraph-font-color:     #211138;
+  --footer-font-color:        #B2ACBA;
+  --footer-span-font-color:   #6200EA;
 }

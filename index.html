@@ -4,15 +4,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="base.css">
   <link rel="stylesheet" href="layout.css">
   <link rel="stylesheet" href="components.css">
 </head>
+
+
 <body>
+
+
+
+
+
+  <header class="header">
+    <div class="table-wrapper">
+      <div class="flex-wrapper">
+
+        <figure class="logo-container">
+          <img class="logo" src="assets/logo_50.svg" alt="website logo">
+        </figure>
   
+        <div class="navbar">
+          <a href="#" class="navbar__item">Home</a>
+          <a href="#" class="navbar__item">About</a>
+          <a href="#" class="navbar__item">Pricing</a>
+          <a href="#" class="navbar__item navbar__item--active">Contact</a>
+        </div>
+  
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <main class="main">
+
+    <div class="location">
+
+      <img class="location__map" src="assets/map.JPG" alt="map">
+      <h6 class="location__address-heading">Address</h6>
+      <p class="location__address">
+        3481 Melrose Avenue, <br>
+        Beverly Hills, CA 90210, USA
+      </p>
+      <h6 class="location__phone-number">(123) 456-7890</h6>
+      <h6 class="location__email">name@example.com</h6>
+
+      <div class="location__icon-container">
+        <a href="#" class="location__icon-link"><i class="location__icon fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" class="location__icon-link"><i class="location__icon fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" class="location__icon-link"><i class="location__icon fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+      
+    </div>
+
+
+    <div class="contact-us">
+
+      <h1 class="contact-us__heading">Contact Us</h1>
+      <p class="contact-us__paragraph">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua.
+      </p>
+
+      <form action="">
+        <input class="contact-us__input" type="text" placeholder="Name" name="name">
+        <input class="contact-us__input" type="email" placeholder="Enter Email" name="email">
+        <textarea class="contact-us__input" name="message" placeholder="Enter your Message..." cols="40" rows="8"></textarea>
+        <button class="contact-us__btn">Submit</button>
+      </form>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <footer class="footer">
+
+    <p class="footer__paragraph">
+      © 2020 Copyright
+      <span class="footer__span">Brand Name</span> 
+      / Design by 
+      <span class="footer__span">Student Name</span>
+    </p>
+
+  </footer>
+
 </body>
 </html>

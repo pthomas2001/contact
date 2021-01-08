@@ -1,0 +1,73 @@
+/**
+* THIS FILE CONTAINS:
+*
+* HEADER
+* MAIN
+* FOOTER
+*/
+
+
+
+
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+/**
+* Extend ´.header´ in components.css
+*/
+
+/**
+* 1) This rule sets the position of ´.logo-container´ and ´.navbar´.
+*/
+
+.header {
+  display:          table;
+  height:           80px;
+  width:            100%;
+  padding:          0 245px;
+}
+
+  .table-wrapper {
+    display:          table-cell;
+    vertical-align:   middle;
+    height:           50px
+  }
+
+    .flex-wrapper {
+      display:          flex;
+      justify-content:  space-between; /* [1] */
+      align-items:      center
+    }
+
+      .navbar {
+        display:          flex;
+        justify-content:  space-between;
+        width:            433px
+      }
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN
+\*------------------------------------*/
+
+/**
+* Extend ´.main´, ´.location´
+* and ´.contact-us´ in components.css
+*/
+
+.main {
+  display:          flex;
+  justify-content:  space-between;
+  height:           720px;
+  padding:          40px 245px;
+}
+
+  .location, .contact-us {
+    height:           640px;
+    padding:          60px
+  }

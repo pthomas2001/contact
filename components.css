@@ -1,0 +1,108 @@
+/**
+* THIS FILE CONTAINS:
+*
+* HEADER
+* MAIN
+* FOOTER
+*/
+
+
+
+
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+/**
+* These rules extend ´.header´ in components.css
+*/
+
+.header { background: var(--primary-background) }
+
+  .navbar__item {
+    color:            var(--navbar-font-color);
+    font-size:        12px;
+    letter-spacing:   2.4px;
+    font-weight:      bold;
+    text-transform:   uppercase
+  }
+
+  .navbar__item--active { color: var(--primary-font-color) }
+
+  .navbar__item--active::after {
+    content:          "";
+    display:          block;
+    position:         relative;
+    top:              32px;
+    height:           4px;
+    width:            75px;
+    background:       var(--primary-font-color)
+  }
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN
+\*------------------------------------*/
+
+/**
+* These rules extend ´.main´, ´.location´
+* and ´.contact-us´ in components.css.
+*/
+
+
+.main { background: #F4F3F5 }
+
+
+  .location {
+    background:       var(--secondary-background);
+    border-radius:    15px
+  }
+
+    .location__map {
+      height:           280px;
+      width:            420px;
+      border-radius:    15px
+    }
+
+    .location__address-heading {
+      color:            var(--secondary-font-color);
+      margin:           30px 0 10px
+    }
+
+    .location__address { font-size: 14px }
+
+    .location__phone-number {
+      color:            var(--secondary-font-color);
+      margin:           30px 0 10px
+    }
+
+    .location__email {
+      color:            var(--secondary-font-color);
+      margin-bottom:    30px
+    }
+
+    .location__icon-container {
+      display:          flex;
+      justify-content:  space-between;
+      width:            140px;
+      height:           40px
+    }
+
+      .location__icon-link {
+        display:          table;
+        background:       var(--primary-background);
+        text-align:       center;
+        font-size:        20px;
+        border-radius:    9999px;
+        width:            40px;
+        height:           40px;
+      }
+
+        .location__icon {
+          display:          table-cell;
+          vertical-align:   middle
+        }
