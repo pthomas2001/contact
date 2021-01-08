@@ -18,6 +18,7 @@
 * These rules extend ´.header´ in components.css
 */
 
+
 .header { background: var(--primary-background) }
 
   .navbar__item {
