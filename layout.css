@@ -71,3 +71,27 @@
     height:           640px;
     padding:          60px
   }
+
+
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+/**
+* Extend ´.footer´ in components.css
+*/
+
+.footer {
+  display:          table;
+  width:            100%;
+  height:           100px
+}
+
+  .footer__paragraph {
+    display:          table-cell;
+    vertical-align:   middle;
+    text-align:       center
+  }

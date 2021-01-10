@@ -77,8 +77,8 @@ input::placeholder, textarea::placeholder {
 }
 
 input:focus, textarea:focus {
-  border: 0;
-  border-bottom: 3px solid var(--primary-background)
+  outline:        0;
+  border-bottom:  3px solid var(--primary-background)
 }
 
 

@@ -15,7 +15,7 @@
 \*------------------------------------*/
 
 /**
-* These rules extend ´.header´ in components.css
+* These rules extend ´.header´ in layout.css
 */
 
 
@@ -51,7 +51,7 @@
 
 /**
 * These rules extend ´.main´, ´.location´
-* and ´.contact-us´ in components.css.
+* and ´.contact-us´ in layout.css.
 */
 
 
@@ -137,5 +137,30 @@
         text-transform:   uppercase;
         border-radius:    9999px;
         padding:          18px 0 17px;
-        border:           0
+        border:           0;
+        margin-top:       5px
       }
+
+
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+/**
+* These rules extend ´.footer´ in layout.css
+*/
+
+.footer { background: var(--footer-background) }
+
+  .footer__paragraph {
+    color:            var(--footer-font-color);
+    font-size:        12px;
+    font-weight:      bold;
+    letter-spacing:   2.4px;
+    text-transform:   uppercase;
+  }
+
+    .footer__span { color: var(--footer-span-font-color) }
