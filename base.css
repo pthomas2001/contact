@@ -14,6 +14,7 @@
 * Box-sizing
 * Links
 * H6 rules
+* inputs, text areas
 * Font-family
 * Paddings
 *
@@ -41,6 +42,7 @@ a {
 
 
 h6 {
+  color:            var(--secondary-font-color);
   font-size:        12px;
   letter-spacing:   2.4px;
   font-weight:      bold;
@@ -55,6 +57,28 @@ main div {
   width:    540px;
   height:   640px;
   padding:  60px
+}
+
+
+input, textarea {
+  display:    block;
+  width:      100%;
+  background: var(--form-background);
+  color:      var(--paragraph-font-color);
+  padding:    16px 24px;
+  border:     0
+}
+
+input::placeholder, textarea::placeholder {
+  color:        var(--placeholder-font-color);
+  font-size:    14px;
+  font-weight:  bold;
+  font-style:   normal
+}
+
+input:focus, textarea:focus {
+  border: 0;
+  border-bottom: 3px solid var(--primary-background)
 }
 
 
@@ -85,6 +109,7 @@ main div {
   --secondary-font-color:     #6200EA;
   --navbar-font-color:        rgba(244,243,245,0.6);
   --paragraph-font-color:     #211138;
+  --placeholder-font-color:   rgb(33,17,56,0.2);
   --footer-font-color:        #B2ACBA;
   --footer-span-font-color:   #6200EA;
 }
